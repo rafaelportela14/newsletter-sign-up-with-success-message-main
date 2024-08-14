@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/variables.css">
+  <link rel="stylesheet" href="./src/css/responsible.css">
+
+</head>
+
+<body>
+
+  <div class="container ">
+
+    <div class="introducao">
+
+      <h1> Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly <br> updates on:</p>
+
+      <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+
+      <form action="">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder=" email@company.com ">
+
+        <button type="submit">Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+
+    <div class="informacoes">
+      <img src="./src/images/illustration-sign-up-desktop.svg" alt="">
+    </div>
+
+  </div>
+
+  <div class="container-2 hide">
+    <img src="./src/images/icon-success.svg" alt="" class="icon-card-2">
+    <h1>Thanks for <br> Subscribing!</h1>
+
+    <p>A confirmation email has been sent to <span>ash@loremcompany.com. </span>
+      Please open it and click the button inside to confirm your subscription.</p>
+
+    <button>Dismiss message</button>  
+  </div>
+
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>

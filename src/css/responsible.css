@@ -1,0 +1,41 @@
+@media (max-width:768px) {
+
+    body{
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        width: 95%;
+        padding: 0;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .introducao {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .informacoes {
+        width: 100%;
+
+    }
+
+    .informacoes img{
+        content: url(./src/images/illustration-sign-up-mobile.svg);
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .container-2 {
+        min-height: 100vh;
+    }
+
+}

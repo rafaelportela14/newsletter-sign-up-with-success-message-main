@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--ntlDarkGrey);
+    background-color: var(--ntlDarkGrey);
+    
+    
+}
+
+.container-sucesso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--ntlWhite);
+    flex-direction: column;
+   
+}
+
+.container-sucesso h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.container-sucesso p {
+    padding-bottom: 30px;
+}
+
+.container-sucesso a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--priTomato);
+    background: linear-gradient(5.1turn,pink,var(--priTomato));
+    color: var(--ntlWhite);
+    border-radius: 10px;
+    width: 340px;
+    height: 50px;
+    font-weight: 500;
+    text-decoration: none;
+}
